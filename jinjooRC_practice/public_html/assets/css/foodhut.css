@@ -11205,7 +11205,7 @@ pre {
 
 .header {
   height: 100vh;
-  max-height: 700px;
+  max-height: 900px;
   background: url(../imgs/가래.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
@@ -11411,7 +11411,7 @@ pre {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border-color: var(--white);
+  border-color: black;
   background: var(--yellow);
   display: flex;
   align-items: center;
@@ -11438,7 +11438,7 @@ pre {
 
 .search-box:hover > form .search-btn {
   color: var(--white);
-  background: #464E54;
+  background: darkgoldenrod;
 }
 
 @font-face {
