@@ -11155,10 +11155,10 @@ pre {
 }
 
 .navbar-brand .brand-img {
-  width: 100px;
+  width: 60px;
   display: inline-block;
   margin: auto;
-  margin-left: 250px;/*로고버튼 중앙 맞추기용*/
+  margin-right: 125px;/*로고버튼 중앙 맞추기용*/
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.2s linear 0s;
@@ -11179,7 +11179,7 @@ pre {
   visibility: hidden;
   -webkit-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
-  font-family: "Oswald", sans-serif;
+  font-family: "Yeongdo-Rg";
 }
 
 .affix {
@@ -11205,10 +11205,10 @@ pre {
 
 .header {
   height: 100vh;
-  max-height: 900px;
+  max-height: 700px;
   background: url(../imgs/가래.jpg) no-repeat center center fixed;
-  background-size: cover;
-  min-height: 750px;
+  background-size: 100%;
+  min-height: 600px;
 }
 
 .header .overlay {
@@ -11286,7 +11286,7 @@ pre {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../imgs/KakaoTalk_Photo_2022-11-10-14-54-27.jpeg) no-repeat center center fixed;
+  background: url(../imgs/jinjooabout.jpeg) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
   opacity: .75;
@@ -11321,7 +11321,7 @@ pre {
 }
 
 .section-title {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: 'MaplestoryOTFLight';
 }
 
@@ -11451,6 +11451,13 @@ pre {
 @font-face {
   font-family: 'MaplestoryOTFLight';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Yeongdo-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/Yeongdo-Rg.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
