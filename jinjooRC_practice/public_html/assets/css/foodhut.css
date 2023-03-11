@@ -11158,7 +11158,7 @@ pre {
   width: 60px;
   display: inline-block;
   margin: auto;
-  margin-right: 125px;/*로고버튼 중앙 맞추기용*/
+  margin-right: 120px;/*로고버튼 중앙 맞추기용*/
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.2s linear 0s;
@@ -11205,10 +11205,10 @@ pre {
 
 .header {
   height: 100vh;
-  max-height: 700px;
+  max-height: 300px;
   background: url(../imgs/가래.jpg) no-repeat center center fixed;
   background-size: 100%;
-  min-height: 600px;
+  min-height: 300px;
 }
 
 .header .overlay {
@@ -11364,7 +11364,7 @@ pre {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 90.4%;
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;

@@ -9,13 +9,13 @@
    
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
     <!-- Bootstrap + FoodHut main styles -->
 	<link rel="stylesheet" href="assets/css/foodhut.css">
+
+	<link rel="stylesheet" href="assets/css/slide.css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" style="background-color: #f8f9fa;">
     <!-- Navbar -->
@@ -57,28 +57,36 @@
             </div>
         </div>
     </nav>
+
     <!-- header -->
-    <header id="home" class="bg-light header">
-        <div class="overlay text-light text-center">
-            <h3 style="position: absolute; right:10px; bottom:270px;">
-                <a href="https://www.instagram.com/busan_jinjoods_rice_cake/" target="_blank">
-                    <button type="button" class="btn-sm bg-transparent border-0" id="insta-btn"><img  src="assets/imgs/sns아이콘png파일/인스타그램1.png" style="width:50px"></button>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100063832380814" target="_blank">
-                    <button type="button" class="btn-sm bg-transparent border-0" id="facebook-btn"><img  src="assets/imgs/sns아이콘png파일/페이스북.png" style="width:50px"></button>
-                </a>
-                <a href="https://band.us/band/77842984" target="_blank">
-                    <button type="button" class="btn-sm bg-transparent border-0" id="naverband-btn"><img  src="assets/imgs/sns아이콘png파일/네이버밴드.png" style="width:50px"></button>
-                </a>
-                <a href="http://pf.kakao.com/_zsKlb" target="_blank">
-                    <button type="button" class="btn-sm bg-transparent border-0" id="kakaochannel-btn"><img  src="assets/imgs/sns아이콘png파일/카카오채널.png" style="width:50px"></button>
-                </a>
-            </h3>
-        </div>
-    </header>
+
+    <div class="slide slide_wrap" style="margin-top: 100px;">
+        <div class="slide_item item1"><img src="assets/imgs/gallary-3.jpg"></div>
+        <div class="slide_item item2">2</div>
+        <div class="slide_item item3"><a href="#" style="width: 100%;"><img src="assets/imgs/jinjoo.png" style="width: 100%;"></a></div>
+        <div class="slide_item item4">4</div>
+        <div class="slide_item item5">5</div>
+        <div class="slide_prev_button slide_button">◀</div>
+        <div class="slide_next_button slide_button">▶</div>
+        <ul class="slide_pagination"></ul>
+    </div>
 
     <!--  gallary Section  -->
     <div id="menu" class="text-center bg-light text-dark has-height-sm middle-items">
+        <h3 style="position: absolute; right:10px; bottom: 21%;">
+            <a href="https://www.instagram.com/busan_jinjoods_rice_cake/" target="_blank">
+                <button type="button" class="btn-sm bg-transparent border-0" id="insta-btn"><img  src="assets/imgs/sns아이콘png파일/인스타그램1.png" style="width:40px"></button>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100063832380814" target="_blank">
+                <button type="button" class="btn-sm bg-transparent border-0" id="facebook-btn"><img  src="assets/imgs/sns아이콘png파일/페이스북.png" style="width:40px"></button>
+            </a>
+            <a href="https://band.us/band/77842984" target="_blank">
+                <button type="button" class="btn-sm bg-transparent border-0" id="naverband-btn"><img  src="assets/imgs/sns아이콘png파일/네이버밴드.png" style="width:40px"></button>
+            </a>
+            <a href="http://pf.kakao.com/_zsKlb" target="_blank">
+                <button type="button" class="btn-sm bg-transparent border-0" id="kakaochannel-btn"><img  src="assets/imgs/sns아이콘png파일/카카오채널.png" style="width:40px"></button>
+            </a>
+        </h3>
         <h2 class="section-title py-5" style="margin-top: 50px;">진주떡집 메뉴</h2>
     </div>
     <div class="gallary row bg-light">
@@ -173,38 +181,6 @@
             <h4 class="text-dark text-center">13,000원</h4>
         </div>
         <div class="col-lg-6 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-            <h3 class="text-center text-dark">우리떡집 대표메뉴</h3>
-            <h4 class="text-dark text-center">13,000원</h4>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-            <h3 class="text-center text-dark">우리떡집 대표메뉴</h3>
-            <h4 class="text-dark text-center">13,000원</h4>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-            <h3 class="text-center text-dark">우리떡집 대표메뉴</h3>
-            <h4 class="text-dark text-center">13,000원</h4>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-            <h3 class="text-center text-dark">우리떡집 대표메뉴</h3>
-            <h4 class="text-dark text-center">13,000원</h4>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
             <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
             <a href="#" class="gallary-overlay">
                 <i class="gallary-icon ti-plus"></i>
@@ -375,6 +351,7 @@
     
     <!-- FoodHut js -->
     <script src="assets/js/foodhut.js"></script>
+    <script src="assets/js/slide.js"></script>
 
 </body>
 </html>
