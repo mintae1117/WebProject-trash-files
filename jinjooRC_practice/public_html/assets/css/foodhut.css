@@ -4599,8 +4599,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4620,6 +4619,7 @@ input[type="button"].btn-block {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-left: 0;
+  margin-top: 5px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -11155,10 +11155,12 @@ pre {
 }
 
 .navbar-brand .brand-img {
-  width: 60px;
+  position: absolute;
+  left: 48%;
+  bottom: 7%;
+  width: 70px;
   display: inline-block;
   margin: auto;
-  margin-right: 120px;/*로고버튼 중앙 맞추기용*/
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.2s linear 0s;
@@ -11321,6 +11323,7 @@ pre {
 }
 
 .section-title {
+  margin-top: 10px;
   font-size: 2rem;
   font-family: 'MaplestoryOTFLight';
 }
@@ -11330,7 +11333,7 @@ pre {
 }
 
 .has-height-sm {
-  min-height: 150px;
+  min-height: 200px;
 }
 
 .has-height-md {
@@ -11342,14 +11345,15 @@ pre {
 }
 
 .gallary {
-  padding: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  padding: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: -60px;
 }
 
 .gallary .gallary-item {
   padding: 0px;
-  border: 15px solid #f8f9fa;
+  border: 30px solid #f8f9fa;
 }
 
 .gallary .gallary-item .gallary-img {
@@ -11364,7 +11368,7 @@ pre {
   left: 0;
   top: 0;
   width: 100%;
-  height: 90.4%;
+  height: 89%;
   display: -webkit-flex;
   display: -ms-flex;
   display: -webkit-box;
@@ -11403,6 +11407,7 @@ pre {
   padding: 5px;
   border-radius: 40px;
   margin-left: 5px;
+  margin-top: 5px;
 }
 
 .search-btn {
