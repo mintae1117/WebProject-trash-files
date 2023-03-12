@@ -11323,7 +11323,7 @@ pre {
 }
 
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   font-size: 2rem;
   font-family: 'MaplestoryOTFLight';
 }
@@ -11333,7 +11333,7 @@ pre {
 }
 
 .has-height-sm {
-  min-height: 200px;
+  min-height: 150px;
 }
 
 .has-height-md {
