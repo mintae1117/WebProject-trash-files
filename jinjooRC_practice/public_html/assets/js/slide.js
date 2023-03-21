@@ -42,7 +42,7 @@ slideItems[slideItems.length - 1].after(startElem);
 
 // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
 slideItems = document.querySelectorAll(".slide_item");
-//
+
 let offset = slideWidth + currSlide;
 slideItems.forEach((i) => {
   i.setAttribute("style", `left: ${-offset}px`);
@@ -191,8 +191,9 @@ slide.addEventListener("touchend", (e) => {
 // 기본적으로 슬라이드 루프 시작하기
 let loopInterval = setInterval(() => {
   nextMove();
-}, 3000);
+}, 5000);
 
+/*
 // 슬라이드에 마우스가 올라간 경우 루프 멈추기
 slide.addEventListener("mouseover", () => {
   clearInterval(loopInterval);
@@ -204,3 +205,4 @@ slide.addEventListener("mouseout", () => {
     nextMove();
   }, 3000);
 });
+*/
